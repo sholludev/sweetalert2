@@ -1,13 +1,16 @@
 {
-  "name": "sweetalert2",
+  "name": "@sholludev/sweetalert2",
   "version": "11.7.32",
-  "repository": "sweetalert2/sweetalert2",
+  "repository": "sholludev/sweetalert2",
   "homepage": "https://sweetalert2.github.io/",
   "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
   "main": "dist/sweetalert2.all.js",
   "browser": "dist/sweetalert2.all.js",
   "module": "dist/sweetalert2.all.js",
   "types": "sweetalert2.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@sholludev"
+  },
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
